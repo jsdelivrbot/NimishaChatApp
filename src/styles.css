@@ -1,0 +1,160 @@
+
+.loginPage {
+    height:100%;
+    padding-top: 25%;
+}
+
+.loginPage div {
+    margin: 0 auto;
+    width: 400px;
+}
+
+
+.loginBtn {
+    width: 400px;
+    margin-top: 15px;
+    background-color: #ff1942;
+    color: white;
+}
+
+.leftPanel{
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #ff1942;
+    color: white;
+    height:-webkit-fill-available;
+    width: 300px;
+}
+
+.leftPanel .username {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.mainPanel {
+    padding: 0px;
+    height:80%;
+}
+
+.userInfo {
+    padding: 20px;
+}
+
+.userInfo .status {
+    display: block;
+    font-size: 12px;
+}
+
+.chatRoom{
+    list-style-type: none;
+    padding-top:20px;
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+.chatRoom li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.chatRoom li:hover {
+    background-color: #A41A3E; 
+}
+
+.chatRoom .selected {
+    background-color: #A41A3E;
+}
+
+.roomContent {
+    height: 70px;
+    position: fixed;
+    width: 80%;
+    text-align: center;
+    padding-top: 10px; 
+    color: gray;
+}
+
+.roomContent .roomName {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px; 
+}
+
+.roomContent .users {
+    font-size: 12px;
+}
+.currentUser {
+    color: #ff1942;
+}
+
+.msgInputBx {
+    height: 60px;
+    bottom: 0px;
+    position: fixed;
+    width: 80%; 
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.msgInputBx input {
+    width: 90%;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.messages {
+    position: fixed;
+    top: 70px;
+    bottom: 60px;
+    overflow: auto;
+    width: 80%;
+    background-color: whitesmoke;
+    border-top: 1px solid LightGray; 
+    border-bottom: 1px solid LightGray; 
+    list-style-type: none;
+    padding: 15px;  
+}
+
+
+.oldMessage .message{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 50%;
+    border-radius: 25px;
+    margin-top: 10px;
+    clear:both;
+    background-color: white;
+    float: left;
+    color: gray;
+    word-wrap: break-word;
+}
+
+.oldMessage .user {
+    font-size: 12px;
+    clear:both;
+    color:gray;
+    float:left;
+    padding:10px;
+}
+
+.newMessage .message{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 50%;
+    border-radius: 25px;
+    margin-top: 10px;
+    clear:both;
+    background-color: #ff1942;
+    float: right;
+    color: white;
+    word-wrap: break-word;
+
+}
+
+
